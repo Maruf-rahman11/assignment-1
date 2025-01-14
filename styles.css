@@ -6,7 +6,9 @@
     font-weight: 400;
     font-style: normal;
 }
-
+*{
+    zoom: 95%;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -36,23 +38,19 @@ nav{
 
 .body-part-1{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 24px 160px;
+    justify-content: center;
+    align-self:center;
+    margin: 60px 160px;
     gap: 65px;
+    padding: 60px 120px;
 
 }
-.left-part{
-    margin: 60px 120px;
-}
-.right-part{
-    margin: 60px 120px;
-}  
+
 
 .body-part-1-bg{
     background-color: #C6E4D6;
     border-radius: 20px;
-    height: 600px;
+    
     margin: 50px 120px;
     
 }
@@ -78,6 +76,7 @@ nav{
     color: white;
     border: none;
     margin-top:20px;
+
     cursor: pointer;
 }
 
@@ -184,7 +183,14 @@ nav{
 }
 
 /* body part 4 */
-section{
+.bdp5-content{
+    margin: 60px 120px;
+}
+.bdp5-header{
+    margin: 60px 120px; 
+}
+
+.body-part-4{
     margin: 60px 120px;  
 }
 
@@ -245,15 +251,20 @@ section{
     
 }
 /* donate part */
+.donate{
+    margin: 60px 120px;
+}
 .top-part{
     text-align: center;
 }
 .taka{
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
+    margin: 60px 120px;
+    gap: 24px;
 }  
 .taka-bg-green{
     background-color: #C6E4D6;
@@ -318,7 +329,7 @@ section{
 
 /* last part */
 .last-part{
-    
+    margin: 60px 120px;
     padding: 80px 265px;
 }
 
@@ -342,7 +353,7 @@ section{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
 }
 .submit{
-    width: 200px;
+    width: 180px;
     height: 70px;
     margin-left: 0px;
     font-size: 20px;
