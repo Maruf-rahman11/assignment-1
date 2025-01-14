@@ -253,7 +253,18 @@ section{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
-}   
+}  
+.taka-bg-green{
+    background-color: #C6E4D6;
+    padding:50px 100px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.08);
+}
+.taka-bg-green:hover{
+    background-color: #3bb093;
+    transition: 0.5s ease;
+}
+
 .taka-bg{
     
     padding:50px 100px;
@@ -288,11 +299,11 @@ section{
     background-color: #006A50;
     color: white;
     text-decoration: none;
-    width: 15%;
+    width: 10%;
     height: 60px;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     border: none;
     margin:25px 20px;
     cursor: pointer;
